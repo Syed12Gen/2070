@@ -1,0 +1,29 @@
+@@ PRINT OUT @@
+Row #1
+ali
+jamal
+khalid
+Row #2
+fahad
+asif
+afridi
+Row #3
+hassan
+haider
+zain
+
+// code goes here:
+
+const seatingChart = [
+    ['ali', 'jamal', 'khalid'],
+    ['fahad', 'asif', 'afridi'],
+    ['hassan', 'haider', 'zain']
+]
+
+for (let i=0; i<seatingChart.length; i++ ) {
+    const row = seatingChart[i];
+    console.log(`Row #${i + 1}`)
+    for (let j=0; j<row.length; j++) {
+    console.log(row[j])
+ }
+}
